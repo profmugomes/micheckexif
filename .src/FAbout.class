@@ -1,18 +1,20 @@
 ' Gambas class file
 
-' Copyright (C) 2025-2026 Murilo Gomes Julio
+' Copyright (C) 2024-2026 Murilo Gomes <profmugomes.com.br>
 ' SPDX-License-Identifier: GPL-2.0-only
 
-' Site: https://www.bluice.com.br
+' Site: https://www.profmugomes.com.br
 
 Public Sub URLLabel1_Click()
   
-  Shell "xdg-open \"https://www.bluice.com.br\""
+  Dim sTerm As String = ""
+  
+  Shell "xdg-open \"https://www.profmugomes.com.br\"" To sTerm
   
 End
 
 Public Sub Form_Open()
 
-  lblVersion.Text = ("Version:") & " " & Application.Version
+  
 
 End

@@ -1,47 +1,39 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: micheckexif 3.21.6\n"
-"PO-Revision-Date: 2026-06-03 19:02 UTC\n"
-"Last-Translator: bluice <bluice@mi-desktop>\n"
+"Project-Id-Version: micheckexif 3.22.2\n"
+"PO-Revision-Date: 2026-10-25 18:43 UTC\n"
+"Last-Translator: profmugomes <profmugomes@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: FMain.class:87
-msgid "<b>libimage-exiftool-perl</b> was not found!"
-msgstr "<b>libimage-exiftool-perl<b> não foi encontrado!"
-
-#: FMain.form:29
+#: FMain.form:27
 msgid "About"
 msgstr "Sobre"
 
-#: FMain.form:46
+#: FAbout.form:16 FMain.form:37
 msgid "About MiCheckEXIF"
 msgstr "Sobre MiCheckEXIF"
 
-#: FMain.form:76
+#: FMain.form:67
 msgid "Add Files"
 msgstr "Adicionar arquivos"
-
-#: FMain.form:32
-msgid "Check Update"
-msgstr "Verificar Atualizações"
 
 #: FMain.class:52
 msgid "Completed!"
 msgstr "Concluído!"
 
-#: FMain.class:123
+#: FMain.class:118
 msgid "Data removed"
 msgstr "Dados removidos"
 
-#: FMain.class:121
+#: FMain.class:116
 msgid "File not changed"
 msgstr "Arquivo não alterado"
 
-#: FMain.form:53
+#: FMain.form:44
 msgid "Get Information"
 msgstr "Obtenha informações"
 
@@ -50,7 +42,7 @@ msgid "Getting information..."
 msgstr "Obtendo informações..."
 
 # gb-ignore
-#: .project:1 FMain.form:24
+#: .project:1 FMain.form:22
 msgid "MiCheckEXIF"
 msgstr ""
 
@@ -59,31 +51,31 @@ msgstr ""
 msgid "MiCheckEXIF checks and removes data from files through exiftool.\nThe MiCheckEXIF is under license GPL-2.0-only"
 msgstr ""
 
-#: FMain.class:92
+#: FMain.class:87
 msgid "Name"
 msgstr "Nome"
 
-#: FMain.form:94
+#: FMain.form:84
 msgid "No"
 msgstr "Não"
 
-#: FMain.form:82
+#: FMain.form:73
 msgid "Remove"
 msgstr "Remover"
 
-#: FMain.form:106
+#: FMain.form:96
 msgid "Remove All"
 msgstr "Remover Tudo"
 
-#: FMain.form:59
+#: FMain.form:50
 msgid "Remove Data"
 msgstr "Remover dados"
 
-#: FMain.form:88
+#: FMain.form:79
 msgid "Remove original file"
 msgstr "Remover arquivo original"
 
-#: FMain.class:108
+#: FMain.class:103
 msgid "Removing data from &1..."
 msgstr "Removendo dados de &1..."
 
@@ -91,19 +83,15 @@ msgstr "Removendo dados de &1..."
 msgid "Select File"
 msgstr "Selecione o arquivo"
 
-#: FMain.form:39
-msgid "Support"
-msgstr "Apoie"
+#: FMain.form:30
+msgid "Support MiCheckEXIF"
+msgstr "Apoie MiCheckEXIF"
 
-#: FMain.class:94
+#: FMain.class:89
 msgid "Value"
 msgstr "Valor"
 
-#: FAbout.class:16
-msgid "Version:"
-msgstr "Versão:"
-
-#: FMain.form:94
+#: FMain.form:84
 msgid "Yes"
 msgstr "Sim"
 
