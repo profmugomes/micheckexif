@@ -16,6 +16,7 @@ MiCheckEXIF checks and removes data from files through exiftool.
 ### Linux
 
 - Ubuntu 26.04 or higher
+- libimage-exiftool-perl
 
 ## 👤 Autor
 
