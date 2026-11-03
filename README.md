@@ -4,7 +4,6 @@ MiCheckEXIF checks and removes data from files through exiftool.
 
 ### Links to Third-Party Resources Used
 
-- https://gambaswiki.org/website/en/main.html
 - https://exiftool.org
 
 ## Information
