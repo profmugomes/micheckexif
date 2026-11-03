@@ -1,6 +1,6 @@
-# MiCheckEXIF
+# MiCheckExif
 
-MiCheckEXIF checks and removes data from files through exiftool.
+MiCheckExif checks and removes data from files through exiftool.
 
 ### Links to Third-Party Resources Used
 
@@ -8,7 +8,7 @@ MiCheckEXIF checks and removes data from files through exiftool.
 
 ## Information
 
- - [Repository MiCheckEXIF](https://github.com/profmugomes/micheckexif)
+ - [Repository MiCheckExif](https://github.com/profmugomes/micheckexif)
 
 ## System Requirement
 
@@ -29,10 +29,10 @@ MiCheckEXIF checks and removes data from files through exiftool.
 
 ## License
 
-The MiCheckEXIF is provided under:
+The MiCheckExif is provided under:
 
 [SPDX-License-Identifier: GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html)
 
 Beign under the terms of the GNU General Public License version 2 only.
 
-All contributions to the MiCheckEXIF are subject to this license.
+All contributions to the MiCheckExif are subject to this license.
