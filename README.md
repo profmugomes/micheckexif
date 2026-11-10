@@ -6,12 +6,12 @@ MiCheckExif é um frontend para o exiftool, com ele você pode visualizar dados 
 
  - [Repositório MiCheckExif](https://github.com/profmugomes/micheckexif)
 
-## System Requirement
+## Requerimento do Sistema
 
 ### Linux
 
-- Ubuntu 26.04 or higher
-- libimage-exiftool-perl
+- Ubuntu 26.04 ou superior
+- Dependencias do Gambas3 e libimage-exiftool-perl
 
 ## 👤 Autor
 
