@@ -1,7 +1,7 @@
 # MiCheckExif
 
 > [!NOTE]
-> A partir da versão 10, o MiCheckExif é compatível com Linux Lubuntu, devendo funcionar na distro Ubuntu e distros baseados no Ubuntu.
+> A partir da versão 3, o MiCheckExif é compatível com Linux Lubuntu, devendo funcionar na distro Ubuntu e distros baseados no Ubuntu.
 
 MiCheckExif é um frontend para o exiftool, com ele você pode visualizar dados exif e remover dados exif de imagens.
 
