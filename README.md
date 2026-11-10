@@ -1,14 +1,10 @@
 # MiCheckExif
 
-MiCheckExif checks and removes data from files through exiftool.
+MiCheckExif é um frontend para o exiftool, com ele você pode visualizar dados exif e remover dados exif de imagens.
 
-### Links to Third-Party Resources Used
+## Informações
 
-- https://exiftool.org
-
-## Information
-
- - [Repository MiCheckExif](https://github.com/profmugomes/micheckexif)
+ - [Repositório MiCheckExif](https://github.com/profmugomes/micheckexif)
 
 ## System Requirement
 

@@ -1,0 +1,133 @@
+' Gambas class file
+
+' Copyright (C) 2024-2026 Murilo Gomes <profmugomes.com.br>
+' SPDX-License-Identifier: GPL-2.0-only
+
+' Site: https://www.profmugomes.com.br
+
+Public Sub mnuApoie_Click()
+  
+  Shell "xdg-open \"https://github.com/sponsors/profmugomes\""
+  
+End
+
+Public Sub mnuSobre_Click()
+  
+  FAbout.Show()
+  
+End
+
+Public Sub btnInfo_Click()
+  
+  Dim sInfo As String
+  Dim a As String[]
+  Dim b As String[]
+  Dim i As Integer = 0
+  
+  lstInfo.Clear()
+  lblInfo.Text = ""
+  If lstArquivos.Count > 0 Then 
+    lblInfo.Text = ("Getting information...")
+    
+    Wait 1
+    
+    For Each row As String In lstArquivos.Keys
+      Shell "exiftool \"" & row & "\"" Wait To sInfo
+      
+      a = Split(sInfo, gb.NewLine)
+      
+      For Each row1 As String In a
+        If Not row1 = "" Then 
+          b = Split(Trim(row1), ":")
+          
+          lstInfo.Add(i, Trim(b[0]))
+          lstInfo[i][1] = Trim(b[1])
+          
+          Inc i
+        Endif
+      Next
+      lstInfo.Add("separador" & i, "")
+    Next
+    
+    lblInfo.Text = ("Completed!")
+  Endif 
+  
+End
+
+Public Sub txtArquivo_Click()
+  
+  Dialog.Title = ("Select File")
+  
+End
+
+Public Sub btnRemoverItens_Click()
+  
+  If lstArquivos.Selection.Count > 0 Then 
+    For Each row As String In lstArquivos.Selection 
+      lstArquivos.Remove(row)
+    Next
+  Endif 
+  
+End
+
+Public Sub btnAddFiles_Click()
+  
+  Dialog.Title = ("Select File")
+  If Dialog.OpenFile(True) = False Then 
+    For Each row As String In Dialog.Paths 
+      Try lstArquivos.Add(row, row)
+    Next
+  Endif
+  
+End
+
+Public Sub Form_Open()
+  
+  lstInfo.Columns.Count = 2
+  lstInfo.Columns[0].Text = ("Name")
+  lstInfo.Columns[0].Width = 100
+  lstInfo.Columns[1].Text = ("Value")
+  lstInfo.Header = True
+  
+End
+
+Public Sub btnRemover_Click()
+  
+  Dim sInfo As String
+  Dim i As Integer = 0
+  
+  lstInfo.Clear()
+  lblInfo.Text = ""
+  If lstArquivos.Count > 0 Then 
+    For Each row As String In lstArquivos.Keys
+      lblInfo.Text = Subst(("Removing data from &1..."), File.Name(row))
+      Wait 1
+      Shell "exiftool -all= \"" & row & "\"" Wait To sInfo
+      
+      If cboArquivoOriginal.Index = 0 Then 
+        If Exist(row & "_original") Then 
+          Try Kill row & "_original"
+        Endif
+      Endif 
+      
+      lstInfo.Add(i, Trim(row))
+      
+      If InStr(sInfo, "0 image files updated") > 0 Then 
+        lstInfo[i][1] = ("File not changed")
+      Else 
+        lstInfo[i][1] = ("Data removed")
+      Endif
+      
+      Inc i
+    Next
+    
+    lblInfo.Text = ("Completed!")
+  Endif 
+  
+End
+
+Public Sub btnRemoverTodosItens_Click()
+  
+  lstArquivos.Clear()
+  
+End
