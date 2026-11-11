@@ -1,3 +1,9 @@
+* Wed Nov 11 2026 Murilo Gomes <profmugomes@gmail.com> 3.0.2
+- Ajustado para funcionar com as dependencias do Gambas 3.20, compatível com a versão disponível no repositório do Lubuntu 26.04.
+
+* Wed Nov 11 2026 Murilo Gomes <profmugomes@gmail.com> 3.0.1
+- Ajustado para funcionar com as dependencias do Gambas 3.20, compatível com a versão disponível no repositório do Lubuntu 26.04.
+
 * Tue Nov 10 2026 Murilo Gomes <profmugomes@gmail.com> 3.0.1
 - Migrado para a linguagem de programação Gambas3.
 - Ajustado o código para funcionar no Ubuntu 26.04 ou superior.
