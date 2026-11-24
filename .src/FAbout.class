@@ -10,3 +10,9 @@ Public Sub URLLabel1_Click()
   Shell "xdg-open \"https://www.profmugomes.com.br\""
   
 End
+
+Public Sub Form_Open()
+
+  lblVersion.Text = Subst(lblVersion.Text, Application.Version)
+
+End
