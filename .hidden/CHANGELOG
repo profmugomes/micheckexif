@@ -1,3 +1,8 @@
+* Tue Nov 24 2026 Murilo Gomes <profmugomes@gmail.com> 3.0.3
+- Alterado o bytecode para suportar o Ubuntu 24.04.
+- Adicionado o rótulo para mostrar a versão do software no formulário About.
+- Adicionado um menu de verificar atualização.
+
 * Wed Nov 11 2026 Murilo Gomes <profmugomes@gmail.com> 3.0.2
 - Ajustado para funcionar com as dependencias do Gambas 3.20, compatível com a versão disponível no repositório do Lubuntu 26.04.
 
