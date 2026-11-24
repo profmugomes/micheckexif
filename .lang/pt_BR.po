@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: micheckexif 3.22.2\n"
-"POT-Creation-Date: 2026-11-10 20:06 UTC\n"
-"PO-Revision-Date: 2026-10-25 18:43 UTC\n"
+"POT-Creation-Date: 2026-11-24 04:49 UTC\n"
+"PO-Revision-Date: 2026-11-24 04:46 UTC\n"
 "Last-Translator: profmugomes <profmugomes@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # gb-ignore
-#: .project:1 FMain.form:22
+#: .project:1 FMain.form:24
 msgid "MiCheckEXIF"
 msgstr ""
 
@@ -21,10 +21,6 @@ msgid ""
 "MiCheckEXIF checks and removes data from files through exiftool.\n"
 "The MiCheckEXIF is under license GPL-2.0-only"
 msgstr ""
-
-#: FAbout.form:16 FMain.form:37
-msgid "About MiCheckEXIF"
-msgstr "Sobre MiCheckEXIF"
 
 #: FMain.class:30
 msgid "Getting information..."
@@ -58,42 +54,50 @@ msgstr "Arquivo não alterado"
 msgid "Data removed"
 msgstr "Dados removidos"
 
-#: FMain.form:27
+#: FMain.form:29
 msgid "About"
 msgstr "Sobre"
 
-#: FMain.form:30
+#: FMain.form:32
+msgid "Check Update"
+msgstr "Verificar Atualização"
+
+#: FMain.form:39
 msgid "Support MiCheckEXIF"
 msgstr "Apoie MiCheckEXIF"
 
-#: FMain.form:44
+#: FMain.form:46
+msgid "About MiCheckEXIF"
+msgstr "Sobre MiCheckEXIF"
+
+#: FMain.form:53
 msgid "Get Information"
 msgstr "Obtenha informações"
 
-#: FMain.form:50
+#: FMain.form:59
 msgid "Remove Data"
 msgstr "Remover dados"
 
-#: FMain.form:67
+#: FMain.form:76
 msgid "Add Files"
 msgstr "Adicionar arquivos"
 
-#: FMain.form:73
+#: FMain.form:82
 msgid "Remove"
 msgstr "Remover"
 
-#: FMain.form:79
+#: FMain.form:88
 msgid "Remove original file"
 msgstr "Remover arquivo original"
 
-#: FMain.form:84
+#: FMain.form:93
 msgid "No"
 msgstr "Não"
 
-#: FMain.form:84
+#: FMain.form:93
 msgid "Yes"
 msgstr "Sim"
 
-#: FMain.form:96
+#: FMain.form:105
 msgid "Remove All"
 msgstr "Remover Tudo"
